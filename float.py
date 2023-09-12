@@ -1,17 +1,23 @@
-x1 = int(input("what is x1 "))
+#get a string of numbers from the user and convert it to a list of those numbers in the order it was writen in  # noqa: E501
 
-x2 = int(input("what is x2 "))
+num_list = input('what is your list of 5 numbers you want to sort? ')
+num_list = [*num_list]
+num_list = [eval(i)for i in num_list]
 
-x3 = int(input("what is x3 "))
+#sort the list of numbers from least to greatest
+def insetion_sort(num_list):
+  
+  for i in range(1,len(num_list)):
+    j =i
+    while num_list
+    
+    
+  
 
-x4 = int(input("what is x4 "))
-
-x5 = int(input("what is x5 "))
+  
 
 
-list =[x1,x2,x3,x4,x5]
-print(list)
 
-def sort_list():
-    if x2>x1:
-      insert()  
+
+
+print(num_list)
